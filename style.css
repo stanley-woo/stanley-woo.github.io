@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  height: 100vh;
+  color: turquoise;
+  background-image: linear-gradient(to top right, #753682 0%, #bf2e34 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LAYOUT */
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(107, 178, 255, 0.4);
+  backdrop-filter: blur(150px);
+  filter: blur();
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
